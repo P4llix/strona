@@ -1,0 +1,159 @@
+html{
+    margin-left: 0%;
+    margin-top: 0%;
+    font-family: Verdana;
+}
+
+body{
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
+    background-image: linear-gradient(to left, #000428, #004e92);
+    color: #ecf0f1;
+}
+
+.nawi{
+    left: auto;
+    right: auto;
+    margin: auto;
+    position: relative;
+    text-align: right;
+    margin-top: 3%;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 3%;
+}
+
+.sign{
+    padding: 1% 3%;
+    border: 2px solid #ee3925;
+    background: #ee3925;
+    transition: 0.5s;
+}
+
+.sign:hover{
+    border: 2px solid #ee3925;
+    color: #ee3925;
+    background: none;
+}
+
+.nawi a{
+    margin: 3%;
+}
+
+#logotext{
+    padding-top: 14%;
+    padding-bottom: 14%;
+    right: auto;
+    left: auto;
+    margin: auto;
+    position: relative;
+    width: 50%;
+    font-family: 'Charm', cursive;
+    font-size: 50px;
+}
+
+.zdjecie{
+    background: url(4.jpeg) center center no-repeat fixed;
+    height: cover;
+}
+
+#zdjecie1{
+    width: 50%;
+    float: left;
+    clear: both;
+}
+
+#zdjecie2{
+    width: 50%;
+    float: right;
+    clear: both;
+}
+
+#zdjecie3{
+    width: 50%;
+    float: left;
+    clear: both;
+}
+.main{
+    margin-top: 5%;
+}
+
+.text1{
+    width: 40%;
+    float: right;
+    text-align: justify;
+    margin: 3% 5% 3%;
+    line-height: 160%;
+
+}
+
+.text2{
+    width: 40%;
+    float: left;
+    text-align: justify;
+    margin: 3% 5% 3%;
+    line-height: 160%;
+}
+
+.text3{
+    width: 40%;
+    float: right;
+    text-align: justify;
+    margin: 3% 5% 3%;
+    line-height: 160%;
+
+}
+
+
+.linki{
+    position: relative;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+  }
+
+.linki::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    background-color: #ecf0f1;
+    transform: translate( -50%, 100%);
+    transition: 300ms width;
+  }
+
+.linki:hover::before {
+    width: 100%;
+  }
+
+#kontakt{
+    clear: both;
+    margin-top: 4%;
+    left: auto;
+    right: auto;
+    margin: auto;
+    text-align: center;
+    width: 70%
+    
+}
+
+#kontakt hr{
+    width: 60%;
+    text-align: center;
+    border: 1px solid #ecf0f1;
+    margin-bottom: 5%;
+}
+
+input, textarea{
+    margin-bottom: 4%;
+    margin-top: 1%;
+}
+
+#kontakt a{
+    color: #ee3925;
+    font-size: 40px;
+    margin-bottom: 3%;
+}
